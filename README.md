@@ -11,8 +11,6 @@ This repository contains the official code for CAML, an in-context learning algo
 3. **June 16, 2024**: Refactored codebase from `torch` version `1.13.1` to `2.1.2+cu121`. Updated important dependencies to the latest versions to achieve no dependency conflicts with other ML projects (e.g. `numpy==1.21.6` -> `numpy==2.0.0`, `pandas==1.3.5` -> `2.2.2`, etc.). Added code to accept newer image feature extractors and custom datasets.
 
 
-![CAML logo](assets/logo.jpg)
-
 CAML is designed for the universal meta-learning setting.
 
 Universal meta-learning measures a model's capacity to quickly
