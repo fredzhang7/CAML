@@ -1,8 +1,6 @@
 # specified for this repo
-*.jpg
 *.png
 *.log
-*.txt
 events.*
 *.m
 *.tar
