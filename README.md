@@ -2,7 +2,7 @@
 
 This repository contains the official code for CAML, an in-context learning algorithm for few-shot image classification, **maintained by Fred Zhang @ UBC CS**.
 
-**Updates:**
+#### Updates:
 
 1. **March 22, 2024:** Initial release.
 
