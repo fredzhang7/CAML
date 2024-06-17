@@ -10,6 +10,12 @@ events.*
 # Prevent pycharm tracking files.
 .idea/
 
+# wandb
+wandb/
+
+# pytorch lightning
+lightning_logs/
+
 # but include these files
 !imgs/*.png
 !data/meta_iNat_split/*.pth

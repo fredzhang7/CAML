@@ -140,7 +140,7 @@ Additional evaluation details are located in a comment at the top of `CAML/src/e
 
 ## Custom Datasets and Feature Extractors
 
-You can evaluate on a custom dataset and `fe_type` (feature extractor) by adding the correct input image resolution under a new `transform_type`. Here's [an example](https://github.com/fredzhang7/CAML/blob/master/src/evaluation/datasets/transform_manager.py#L66).
+You can evaluate on a custom dataset and `fe_type` (feature extractor) by [adding the correct input image resolution under a new `transform_type` N](https://github.com/fredzhang7/CAML/blob/master/src/evaluation/datasets/transform_manager.py#L66) and [passing N to the `transform_type` parameter](https://github.com/fredzhang7/CAML/blob/master/src/evaluation/test.py#L65).
 
 
 ## Citation
