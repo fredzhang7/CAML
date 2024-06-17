@@ -35,7 +35,7 @@ in our testing framework.
 
 ## Code environment
 
-This code requires Pytorch 2.1.3 or higher with cuda support. It has been tested on Ubuntu 20.04 and Windows 11.
+This code requires PyTorch 2.1.2 or higher with cuda support. It has been tested on Ubuntu 20.04 and Windows 11.
 
 You can create a conda environment with the correct dependencies using the following command lines:
 
