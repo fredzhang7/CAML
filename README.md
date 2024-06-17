@@ -1,6 +1,6 @@
 # CAML: Context-Aware Meta-Learning
 
-This repository contains the official code for CAML, an in-context learning algorithm for few-shot image classification, **maintained by Fred Zhang @ UBC CS** since June 2024.
+This repository contains the official code for CAML, an in-context learning algorithm for few-shot image classification, **maintained & refactored by Fred Zhang @ UBC CS**.
 
 #### Updates:
 
@@ -137,6 +137,11 @@ tiered_meta_iNat, cifar, paintings, pascal]
 ```
 
 Additional evaluation details are located in a comment at the top of `CAML/src/evaluation/test.py`.
+
+## Custom Datasets and Feature Extractors
+
+You can evaluate on a custom dataset and `fe_type` (feature extractor) by adding the correct input image resolution under a new `transform_type`. Here's [an example](https://github.com/fredzhang7/CAML/blob/master/src/evaluation/datasets/transform_manager.py#L66).
+
 
 ## Citation
 

@@ -63,6 +63,7 @@ def get_transform(is_training=None, transform_type=None, pre=None):
         ])
         return global_transfo1
     
+    # Custom dataset transform example on a 518x518 pretrained fe: `vit_base_patch14_reg4_dinov2.lvd142m`.
     elif transform_type == 4:
         normalize = transforms.Compose([
             transforms.ToTensor(),
