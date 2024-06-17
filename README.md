@@ -1,6 +1,6 @@
 # CAML: Context-Aware Meta-Learning
 
-This repository contains the official code for CAML, an in-context learning algorithm for few-shot image classification, **maintained by Fred Zhang @ UBC CS**.
+This repository contains the official code for CAML, an in-context learning algorithm for few-shot image classification, **maintained by Fred Zhang @ UBC CS** since June 2024.
 
 #### Updates:
 
