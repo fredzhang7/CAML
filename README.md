@@ -6,7 +6,7 @@ This repository contains the official code for CAML, an in-context learning algo
 
 1. **March 22, 2024:** Initial release.
 
-2. **June 15, 2024**: Bug fixes for eval.
+2. **June 15, 2024**: Bug fixes for eval. Added package installation via pip.
 
 3. **June 16, 2024**: Refactored codebase from `torch` version `1.13.1` to `2.1.2+cu121`. Updated important dependencies to the latest versions to achieve no dependency conflicts with other ML projects (e.g. `numpy==1.21.6` -> `numpy==2.0.0`, `pandas==1.3.5` -> `2.2.2`, etc.). Added code to accept newer image feature extractors and custom datasets.
 
@@ -35,7 +35,7 @@ in our testing framework.
 
 ## Code environment
 
-This code requires Pytorch 1.13 or higher with cuda support. It has been tested on Ubuntu 20.04.
+This code requires Pytorch 2.1.3 or higher with cuda support. It has been tested on Ubuntu 20.04 and Windows 11.
 
 You can create a conda environment with the correct dependencies using the following command lines:
 
@@ -43,6 +43,12 @@ You can create a conda environment with the correct dependencies using the follo
 cd CAML
 conda env create -f environment.yml
 conda activate caml
+```
+
+or install required dependencies using pip package manager:
+
+```
+pip install -r requirements.txt
 ```
 
 ## Setup
